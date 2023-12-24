@@ -1,0 +1,321 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://turizm.pibig.info/uploads/posts/2023-10/1697869762_turizm-pibig-info-p-krasivii-fon-gori-oboi-7.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+    display: flex;
+    flex-direction: column;
+}
+
+header{             /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+    font-family:cursive;
+    background-color: whitesmoke;
+   
+    
+    
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(mediumaquamarine);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+    font-family: cursive;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+    background-color: darkorchid;
+    font-family: cursive;
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+.A1{
+
+    width: 20%;
+    height: 50%;
+    animation-name: Down;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    background-color: pink;
+    
+}
+
+.A2{
+
+    width: 20%;
+    height: 50%;
+    background-color: mediumseagreen;
+    animation-name: Down;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+}
+
+.A3{
+
+    width: 20%;
+    height: 50%;
+    background-color: mediumpurple;
+    animation-name: Down;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+    
+}
+
+.A4{
+
+    width: 20%;
+    height: 50%;
+    background-color: mediumspringgreen;
+    animation-name: Down;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+    
+}
+
+.A5{
+
+    width: 20%;
+    height: 50%;
+    background-color: mediumturquoise;
+    animation-name: Down;
+    animation-duration: 11s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+    
+}
+
+.A1 li{
+
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    list-style: inside;
+    
+}
+
+.A2 li{
+
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    list-style: inside;
+    
+}
+
+.A3 li{
+
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    list-style: inside;
+    
+}
+
+.A4 li{
+
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    list-style: inside;
+    /*Повторяющийся конический градиент*/
+
+    
+}
+
+.A5 li{
+
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    list-style-type: disc;
+    list-style: inside;
+    
+    
+}
+
+.A1 li:hover{
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.A2 li:hover{
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.A3 li:hover{
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.A4 li:hover{
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.A5 li:hover{
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.A1{
+    background: radial-gradient(#6803ff, #ff9800);
+}
+
+.A2{
+    background: conic-gradient(from 90deg, red, yellow, green); 
+}
+
+.A3{     background: linear-gradient( to left, green, blue);  }
+
+.A4{
+    background: conic-gradient(from 120deg at 20% 200%, rgb(255, 0, 144), rgb(0, 191, 255));
+}
+
+.A5{
+    background: conic-gradient(#1f1ccf, #ff9800);
+}
+
+.GDF{
+    padding: 15px 20px;
+    border: 1px;
+    font-size: 20px;
+    padding-left: 1px;
+
+}
+
+.GDF:hover{
+background-color: mediumaquamarine;
+border:2px solid black;
+}
+
+@keyframes Down{
+    0%{
+        padding-top: 0%;
+    }
+    50%{
+        padding-top: 10%;
+    }
+    100%{
+        padding-top: 0%;
+    }
+}
+.img_button{
+    height: 2em;
+    position: relative;
+    
+}
+.img_button:hover{
+    cursor: pointer;
+    
+}
+
+form{
+    float: right;
+    display: flex;
+   
+   
+   }
+   
+   input{
+   padding: 15px 20px;
+   border: 1px;
+   font-size: 20px;
+   
+   }
+   
+  
+   
+   
+   
+   .buttton{
+       width: 25%;
+       background-color: gray;
+       color: aliceblue;
+   }
+   
+   .buttton:hover{
+       cursor: pointer;
+       background-color: violet;
+       color: blueviolet;
+   }
+
+   .nav{
+    display: flex;
+   }
+
+  .footeer{
+    display: flex;
+    margin-left: 2px;
+  }
+
+  .GTG3{
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: cursive;
+  }
